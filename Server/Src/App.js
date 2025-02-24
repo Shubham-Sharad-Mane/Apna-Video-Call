@@ -16,7 +16,7 @@ if (!dbUri) {
 }
 //creating the app instance
 const server=createServer(app);
-//connecting the express server with socket server 
+//connecting the express server with socket server to combine
 // const io=connectTosocket(server);
 const io=connectwithsocket(server);
 //setting the port from the app (.env files)
